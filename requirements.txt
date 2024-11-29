@@ -1,0 +1,21 @@
+# --------- pytorch --------- #
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics>=0.11.4
+
+# --------- loggers --------- #
+wandb
+
+# --------- others --------- #
+rootutils               # standardizing the project root setup
+pre-commit              # hooks for applying linters on commit
+rich                    # beautiful text formatting in terminal
+pytest                  # tests
+matplotlib              # plotting
+pandas                  # processing csv
+joblib                  # parallelize evaluation
+rich                    # beautiful text formatting in terminal
+yacs                    # yet another configuration system
+opencv-python           # image processing
+tqdm                    # progress bars
+timm                    # goat
